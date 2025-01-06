@@ -1,1 +1,67 @@
+body {
+    background-color: #493e62;
+    color: #493e62;
+    color: #26bec6;
+    font-family: "Courier New", sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
 
+header {
+    color: #26bec6;
+    text-align: center;
+}
+
+nav {
+  height: fit-content;
+  background-color: #5f458b;
+  display: flex;
+  margin-bottom: 10px;
+  border-color: rgb(77, 99, 159);
+  border-style: solid;
+  border-radius: 10px;
+}
+
+nav ul {
+  padding: 10px;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    color: rgb(203, 49, 159);
+    
+}
+
+main {
+    background-color: #493e62;
+}
+
+article {
+    background-color: #5f458b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(77, 99, 159);
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: #5f458b;
+    border-color: rgb(77, 99, 159);
+    border-style: solid;
+    border-radius: 10px;
+}

@@ -1,14 +1,14 @@
 body {
     background-color: #493e62;
     color: #493e62;
-    color: #26bec6;
+    color: #59d3da;
     font-family: "Courier New", sans-serif;
     font-size: 1em;
     text-align: left;
 }
 
 header {
-    color: #26bec6;
+    color: #59d3da;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ nav {
   background-color: #5f458b;
   display: flex;
   margin-bottom: 10px;
-  border-color: rgb(77, 99, 159);
+  border-color: rgb(203, 49, 159);
   border-style: solid;
   border-radius: 10px;
 }
@@ -45,14 +45,27 @@ nav a {
 }
 
 main {
-    background-color: #493e62;
+    outline-style: none;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #5f458b;
+    padding: 10px;
+    border-color: #5d75e2;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+a {
+    color: #5d75e2;
 }
 
 article {
     background-color: #5f458b;
     padding: 10px;
     margin-bottom: 10px;
-    border-color: rgb(77, 99, 159);
+    border-color: #5d75e2;
     border-style: solid;
     border-radius: 10px;
 }
@@ -61,7 +74,7 @@ article {
 footer {
     padding: 10px;
     background-color: #5f458b;
-    border-color: rgb(77, 99, 159);
+    border-color: #5d75e2;
     border-style: solid;
     border-radius: 10px;
 }
